@@ -79,25 +79,3 @@ _,image = cv2.threshold(image, 127, 255, cv2.THRESH_BINARY)   #to ensure it's bi
 cv2.imshow('',image)
 label_img = connectedComponent(image)
 imshow_components(label_img)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
